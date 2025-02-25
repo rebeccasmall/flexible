@@ -357,31 +357,38 @@ section {
 
 /* justify-content */
 section#justify-content-section {
-  /* place your code here */
+  display: flex;
+  justify-content: center;
 }
 
 .justify-content-center-parent-container {
-  /* place your code here */
+  display: flex;
+  justify-content: center;
 }
 
 .justify-content-space-between-parent-container {
-  /* place your code here */
+  display: flex;
+  justify-content: space-between;
 }
 
 .justify-content-space-around-parent-container {
-  /* place your code here */
+  display: flex;
+  justify-content: space-around;
 }
 
 .justify-content-space-evenly-parent-container {
-  /* place your code here */
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .justify-content-flex-start-parent-container {
-  /* place your code here */
+  display: flex;
+  justify-content: flex-start;
 }
 
 .justify-content-flex-end-parent-container {
-  /* place your code here */
+  display: flex;
+  justify-content: flex-end;
 }
 
 /* end justify-content */

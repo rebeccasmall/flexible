@@ -603,31 +603,37 @@ section#flex-flow-section {
 .flex-flow-row-nowrap-parent-container {
   display: flex;
   justify-content: space-evenly;
+  flex-flow: row nowrap;
 }
 
 .flex-flow-row-wrap-parent-container {
-  /* place your code here */
+  display: flex;
   justify-content: space-evenly;
+  flex-flow: row wrap;
 }
 
 .flex-flow-row-wrap-reverse-parent-container {
-  /* place your code here */
+  display: flex;
   justify-content: space-evenly;
+  flex-flow: row wrap-reverse;
 }
 
 .flex-flow-column-nowrap-parent-container {
-  /* place your code here */
+  display: flex;
   justify-content: space-evenly;
+  flex-flow: column nowrap;
 }
 
 .flex-flow-column-wrap-parent-container {
-  /* place your code here */
+  display: flex;
   justify-content: space-evenly;
+  flex-flow: column wrap;
 }
 
 .flex-flow-column-wrap-reverse-parent-container {
-  /* place your code here */
+  display: flex;
   justify-content: space-evenly;
+  flex-flow: column wrap-reverse;
 }
 
 /* end flex-flow */

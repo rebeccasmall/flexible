@@ -679,32 +679,33 @@ section#flex-content-section {
 
 /* order */
 section#order-section {
-  /* place your code here */
+  display: flex;
+  justify-content: center;
 }
 
 .order-parent-container {
-  /* Add display: flex; to make this div a parent flex container */
+  display: flex;
   justify-content: space-around;
 }
 
 .order-child-flex-item-1 {
-  /* place your code here */
+  order: 1;
 }
 
 .order-child-flex-item-2 {
-  /* place your code here */
+  order: 2;
 }
 
 .order-child-flex-item-3 {
-  /* place your code here */
+  order: 3;
 }
 
 .order-child-flex-item-4 {
-  /* place your code here */
+  order: 4;
 }
 
 .order-child-flex-item-5 {
-  /* place your code here */
+  order: 5;
 }
 
 /* end order */

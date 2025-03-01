@@ -640,11 +640,12 @@ section#flex-flow-section {
 
 /* flex section */
 section#flex-content-section {
-  /* place your code here */
+  display: flex;
+  justify-content: center;
 }
 
 .flex-row-parent-container {
-  /* Add display: flex; to make this div a parent flex container */
+  display: flex;
 }
 
 .child-flex-basis-box {
